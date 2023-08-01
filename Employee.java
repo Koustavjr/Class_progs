@@ -21,7 +21,7 @@ public class Employee {
             System.out.println("No tax");
         else {
             if(income>250000 && income<=500000)
-                tax=0.1-(income-250000);
+                tax=0.1*(income-250000);
             else if (income>500000 &&income<1000000)
                 tax=30000+0.2*(income-500000);
             else
